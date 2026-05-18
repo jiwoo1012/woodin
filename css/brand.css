@@ -113,12 +113,140 @@
     flex-direction: column;
     position: relative;
     width: 100%;
-    height: calc(100vh - 90px);
     background-image: url('../img/brand/bgc');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.four>last{
-    
+.four>.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    width: 98%;
+    height: 2900px;
+    position: relative;
+}
+.four>.last>.set1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 690px;
+    background-image: url('../img/brand/b.img_bg1');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 390px;
+    left: 200px;
+}
+.four>.last>.set1>p{
+    padding-top: 900px;
+    font-size: 50px;
+    text-align: center;
+}
+.four>.last>.set1>span{
+    font-size: 20px;
+    text-align: center;
+}
+.four>.last>.set2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 600px;
+    height: 690px;
+    background-image: url('../img/brand/b.img_bg2');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 190px;
+    right: 200px;
+}
+.four>.last>.set2>p{
+    padding-top: 900px;
+    font-size: 50px;
+    text-align: center;
+}
+.four>.last>.set2>span{
+    font-size: 20px;
+    text-align: center;
+}
+.four>.last>.set3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 600px;
+    height: 690px;
+    background-image: url('../img/brand/b.img_bg3');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1390px;
+    right: 200px;
+}
+.four>.last>.set3>p{
+    padding-top:900px;
+    font-size: 50px;
+    text-align: center;
+}
+.four>.last>.set3>span{
+    font-size: 20px;
+    text-align: center;
+}
+.four>.last>.set4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 690px;
+    background-image: url('../img/brand/b.img_bg4');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1690px;
+    left: 200px;
+}
+.four>.last>.set4>p{
+    padding-top: 900px;
+    font-size: 50px;
+    text-align: center;
+}
+.four>.last>.set4>span{
+    font-size: 20px;
+    text-align: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    color: white;
+    gap: 20px;
+    font-weight: 200;
+}
+footer>.logoBox{
+    width: 5%;
+    height: 90px;
+    background-image: url('../img/common/logo2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10 auto;
+    margin-left: 20px;
+}
+footer>.tjs2{
+    width: 1px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
 }
