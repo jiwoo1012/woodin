@@ -1,0 +1,25 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3F3F3;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ사진추가ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.home{
+    background-image: url('https://www.wood.co.kr/data/main/file1_16443788194yu100nyd2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    height: calc(100vh - 150px);
+    border-radius: 10px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 55px;
+    font-weight: 100;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
