@@ -1,4 +1,4 @@
-section{
+.one{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,4 +22,35 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3F3F3;
+}
+.two>.home2{
+    position: relative;
+}
+.two>.home2>img{
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+    position: absolute;
+    right: 50px; top: 40px;
+}
+.two>.home2>.text{
+    position: absolute;
+    left: 50px; top: 40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffff;
+}
+.two>.home2>.text>p{
+    font-size: 20PX;
+}
+.two>.home2>.text>h2{
+    font-size: 35px;
+    font-weight: 300px;
 }
