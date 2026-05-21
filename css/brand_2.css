@@ -151,37 +151,40 @@
     background-color: #ffffff;
     border-radius: 10px;
     margin: 50px auto;
-    padding: 50px 40px;
+    padding: 150px 200px;
     gap: 60px;
 }
 
 .aaa, .bbb {
     display: flex;
-    align-items: flex-start;
+    align-items: start;
     width: 100%;
-    gap: 40px;
+    gap: 60px;
 }
 
-.b2_sec > .aaa > h2,
-.bbb > h2 {
+.b2_sec > .aaa > h2, .bbb > h2 {
     font-size: 50px;
     min-width: 60px;
 }
 
-.b2_sec > .aaa > .tjs_b2,
-.bbb > .tjs01_b2 {
+.b2_sec > .aaa > .tjs_b2{
     width: 0.5px;
     height: 550px;
     background-color: #999;
     flex-shrink: 0;
 }
-
-.b2_sec > .aaa > .brand,
-.bbb > .brand01 {
+.bbb > .tjs01_b2{
+    width: 0.5px;
+    height: 1950px;
+    background-color: #999;
+    flex-shrink: 0;
+}
+.b2_sec > .aaa > .brand, .bbb > .brand01 {
     display: flex;
     flex-direction: column;
     gap: 20px;
     flex: 1;
+    padding-bottom: 250px;
 }
 
 .b2_sec > .aaa > .brand > p > b,
@@ -196,7 +199,6 @@
     font-size: 20px;
     font-weight: 400;
 }
-
 .b2_sec > .aaa > .brand > .gray,
 .bbb > .brand01 > .grayBox {
     display: flex;
@@ -209,13 +211,89 @@
     border-radius: 10px;
     margin-top: 30px;
 }
-
 .b2_sec > .aaa > .brand > .wood {
     font-size: 20px;
     font-weight: 700;
 }
-
 .b2_sec > .aaa > .brand > .wood1 {
     font-size: 20px;
     font-weight: 400;
+}
+.bbb > .brand01 > .logoBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto ;
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    object-fit: cover;
+}
+.bbb > .brand01 >.colorBox {
+    align-items: flex-start ;
+    height: auto ;
+    padding: 60px ;
+    gap: 100px ;
+}
+.bbb > .brand01 .colorRow {
+    display: flex;
+    gap: 40px;
+}
+.bbb > .brand01 .colorItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+.colorTitle{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.bbb > .brand01 .colorItem > .sstitle{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.bbb > .brand01 .colorItem > .col{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.bbb > .brand01>.signBox{
+    padding: 200px;
+    gap: 100px;
+}
+.bbb > .brand01>.signBox>.sign1>p{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    color: white;
+    gap: 20px;
+    font-weight: 200;
+}
+footer>.footerBox{
+    width: 5%;
+    height: 90px;
+    background-image: url('../img/common/logo2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10 auto;
+    margin-left: 20px;
+}
+footer>.tjs2{
+    width: 1px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
 }

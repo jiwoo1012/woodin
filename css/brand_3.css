@@ -1,0 +1,38 @@
+.brand3{
+    background-color: #f3f3f3;
+    margin-top: -10px;
+    width: 100%;
+    height: calc(100vh - 90px);
+}
+.b3{
+    width: 100%;
+    background-color: #f3f3f3;
+    
+}
+.b3>img{
+    border-radius: 10px;
+    display: block;
+    width: 98%;
+    margin: 10px auto;
+    height: calc(100vh - 110px);
+    position: relative;
+}
+.b3>p{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+.mapSection{
+    background-color: #f3f3f3;
+    width: 100%;
+    display: block;
+}
+.map{
+    width: 98%;
+    background-color: white;
+    margin: 10 auto;
+    border-radius: 10px;
+    align-self: center;
+}
