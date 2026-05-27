@@ -120,7 +120,7 @@ footer>.logoBox{
     background-image: url('../img/common/logo2.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 10 auto;
+    background-position: 10px auto;
     margin-left: 20px;
 }
 footer>.tjs2{

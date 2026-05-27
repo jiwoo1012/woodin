@@ -4,12 +4,12 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    min-height: calc(100vh - 90px);
 }
 .fir >img{
     width: 98%;
     height: calc(100vh - 90px);
     border-radius: 10px;
-    
 }
 .fir>p{
     position: absolute;
@@ -26,8 +26,8 @@
     width: 95%;
     background-color: #fff;
     border-radius: 10px;
-    margin: 40px auto;
-    padding: 60px 40px;
+    margin: 70px auto;
+    min-height: 3700px;
 }
 .two>.sec>.title{
     font-size: 50px;
@@ -58,184 +58,155 @@
 .two>.sec>.box>p>b{
     font-size: 20px;
 }
-.history{
-    position: relative;
+
+/* 첫 번째 연혁 시작ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.sec>.history1{
+    margin-top: 300px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 104.7%;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
     gap: 40px;
-    margin-top: 80px;
 }
-.history_img{
-    width: 35%;
-    position: absolute;
-    left: 200px; top: 150px;
-}
-.history_img>img{
-    width: 100%;
+.history1>img{
+    width: 38%;
     border-radius: 10px;
-    object-fit: cover;
 }
 .history_dot{
-    width: 1px;
-    height: 800px;
-    background-color: #333;
+    border-right: 1px solid #333;
+    padding-right: 12px;
+    margin-right: 12px;
 }
-.history_text{
-    position: absolute;
-    right: 330px; top: 150px;
+.history1>.history_text1{
+    width: 38%;
 }
-.history_text>h3{
-    font-size: 60px;
-    text-align: start;
-    padding-bottom: 40px;
+.history1>.history_text1>h3{
+    font-size: 40px;
+    margin-bottom: 40px;
 }
-.history_text>p{
+.history1>.history_text1>p{
     font-size: 20px;
-    font-weight: 300;
-    color: #555;
+    margin-bottom: 10px;
 }
-.history_text>p>b{
-    color: #333;
-    font-weight: 600;
-    padding-right: 20px;
-}
-.history2{
-    position: relative;
+
+/* 두 번째 연혁 시작ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.sec>.history2{
+    margin-top: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 104.7%;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
     gap: 40px;
-    margin-top: 80px;
 }
-.history_img2{
-    width: 35%;
-    position: absolute;
-    right: 200px; top: 170px;
-}
-.history_img2>img{
-    width: 100%;
+.history2>img{
+    width: 38%;
     border-radius: 10px;
-    object-fit: cover;
 }
-.history_dot2{
-    width: 1px;
-    height: 800px;
-    background-color: #333;
+.history_dot{
+    border-right: 1px solid #333;
+    padding-right: 12px;
+    margin-right: 12px;
 }
-.history_text2{
-    position: absolute;
-    left: 250px; top: 150px;
-    text-align: end;
+.history2>.history_text2{
+    width: 38%;
+    text-align: right;
 }
-.history_text2>h3{
-    font-size: 60px;
-    
-    padding-bottom: 40px;
+.history2>.history_text2>h3{
+    font-size: 40px;
+    margin-bottom: 40px;
 }
-.history_text2>p{
+.history2>.history_text2>p{
     font-size: 20px;
-    font-weight: 300;
-    color: #555;
+    margin-bottom: 10px;
 }
-.history_text2>p>b{
-    color: #333;
-    font-weight: 600;
-    padding-left: 20px;
-}
-.history3{
-    position: relative;
+
+/* 세 번째 연혁 시작ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.sec>.history3{
+    margin-top: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 104.7%;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
     gap: 40px;
-    margin-top: 80px;
 }
-.history_img3{
-    width: 35%;
-    position: absolute;
-    left: 200px; top: 150px;
-}
-.history_img3>img{
-    width: 100%;
+.history3>img{
+    width: 38%;
     border-radius: 10px;
-    object-fit: cover;
 }
-.history_dot3{
-    width: 1px;
-    height: 800px;
-    background-color: #333;
+.history_dot{
+    border-right: 1px solid #333;
+    padding-right: 12px;
+    margin-right: 12px;
 }
-.history_text3{
-    position: absolute;
-    right: 100px; top: 150px;
+.history3>.history_text3{
+    width: 38%;
+    text-align: right;
 }
-.history_text3>h3{
-    font-size: 60px;
-    text-align: start;
-    padding-bottom: 40px;
+.history3>.history_text3>h3{
+    font-size: 40px;
+    margin-bottom: 40px;
 }
-.history_text3>p{
+.history3>.history_text3>p{
     font-size: 20px;
-    font-weight: 300;
-    color: #555;
+    margin-bottom: 10px;
 }
-.history_text3>p>b{
-    color: #333;
-    font-weight: 600;
-    padding-right: 20px;
-}
-/* .history4{
-    position: relative;
+
+/* 네 번째 연혁 시자그ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.sec>.history4{
+    margin-top: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 104.7%;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
     gap: 40px;
-    margin-top: 80px;
 }
-.history_img4{
-    width: 35%;
-    position: absolute;
-    right: 200px; top: 170px;
-}
-.history_img4>img{
-    width: 100%;
+.history4>img{
+    width: 38%;
     border-radius: 10px;
-    object-fit: cover;
 }
-.history_dot4{
-    width: 1px;
-    height: 800px;
-    background-color: #333;
+.history_dot{
+    border-right: 1px solid #333;
+    padding-right: 12px;
+    margin-right: 12px;
 }
-.history_text4{
-    position: absolute;
-    left: 250px; top: 150px;
-    text-align: end;
+.history4>.history_text4{
+    width: 38%;
+    text-align: right;
 }
-.history_text4>h3{
-    font-size: 60px;
-    padding-bottom: 40px;
+.history4>.history_text4>h3{
+    font-size: 40px;
+    margin-bottom: 40px;
 }
-.history_text4>p{
+.history4>.history_text4>p{
     font-size: 20px;
-    font-weight: 300;
-    color: #555;
+    margin-bottom: 10px;
 }
-.history_text4>p>b{
-    color: #333;
-    font-weight: 600;
-    padding-left: 20px;
-} */
+
+/* 마지막 푸터ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    color: white;
+    gap: 20px;
+    font-weight: 200;
+}
+footer>.logoBox{
+    width: 5%;
+    height: 90px;
+    background-image: url('../img/common/logo2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10px auto;
+    margin-left: 20px;
+}
+footer>.tjs2{
+    width: 1px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
